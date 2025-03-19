@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git\\ProjectDSA\\Week01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{824FC384-D743-4643-A431-DD9111E14427}|Exercise5\\Exercise5.vcxproj|C:\\Git\\ProjectDSA\\Week01\\Exercise5\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{824FC384-D743-4643-A431-DD9111E14427}|Exercise5\\Exercise5.vcxproj|solutionrelative:Exercise5\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Git\\ProjectDSA\\Week01\\Exercise5\\FileName.cpp",
+              "RelativeDocumentMoniker": "Exercise5\\FileName.cpp",
+              "ToolTip": "C:\\Git\\ProjectDSA\\Week01\\Exercise5\\FileName.cpp",
+              "RelativeToolTip": "Exercise5\\FileName.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T15:12:33.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
