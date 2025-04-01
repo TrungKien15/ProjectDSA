@@ -1,18 +1,34 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-bool isSorted(int arr[], int n) {
-		if (n == 1 || n == 0)
-		return true;
-		if (arr[0] > arr[1])
-		return false;
-		return isSorted(arr + 1, n - 1);
+int minLength(int a[], int n, int target) {
+	int left = 0;
+	int right = 0;
+	int minLength = 0;
+	while (right < n) {
+		int sum = 0;
+		for (int i = left; i <= right; i++) {
+			sum += a[i];
+		}
+		if (sum == target) {
+			if (minLength == 0) {
+				minLength = right - left +1;
+			}
+			else if (minLength > right - left+1) {
+				minLength = right - left +1;
+			}
+			left++;
+			right++;
+		}
+		else if (sum < target) {
+			right++;
+		}
+		else left++;
+	}
+	return minLength; 
 }
+
 int main() {
-	int arr[] = { 1, 2, 3, 4, 5 }; 
-	int n = sizeof(arr) / sizeof(arr[0]);
-		if (isSorted(arr, n))
-		cout << "The array is sorted.\n";
-	else
-		cout << "The array is NOT sorted.\n";
-		return 0;
+	int a[6] = { 2,3,1,2,4,3 };
+	int n = 6;
+	cout << minLength(a, n, 6);
 }

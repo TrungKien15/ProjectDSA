@@ -1,22 +1,16 @@
 #include<iostream>
 using namespace std;
-
-int fibonacci(int n);
-
-int main() {
-	int n;
-	cin >> n;
-	for (int i = 1; i <= n; i++) {
-		cout << fibonacci(i) << " ";
+int linearSearch(int a[],int n,int k) {
+	for (int i = 0; i < n; i++) {
+		if (a[i] == k) {
+			return i;
+		}
 	}
+	return -1;
 }
-
-int fibonacci(int n) {
-	if (n == 1) {
-		return 0;
-	}
-	else if (n == 2) {
-		return 1;
-	}
-	return fibonacci(n - 2) + fibonacci(n - 1);
+int main() {
+	int n = 5;
+	int a[5] = { 1,3,5,7,9 };
+	int k = 5;
+	cout << linearSearch(a, n, k);
 }

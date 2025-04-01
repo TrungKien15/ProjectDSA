@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
-
-void generateBinaryStrings(int n, string str) {
-	if (n == 0) {
-		cout << str << endl;
-		return;
+int findMin(int a[], int n) {
+	int low = 0;
+	int high = n - 1;
+	while (low < high) {
+		int mid = low + (high - low) / 2 ;
+		if (a[mid] > a[high]) {
+			low = mid + 1;
+		}
+		else high = mid;
 	}
-	generateBinaryStrings(n - 1, str + "0");
-	generateBinaryStrings(n - 1, str + "1");
+	return a[low];
 }
-
 int main() {
-	int n;
-	cin >> n;
-	generateBinaryStrings(n, "");
-	return 0;
+	int n = 5;
+	int a[5] = { 3,4,5,1,2 };
+	cout<< findMin(a, n);
 }
-
