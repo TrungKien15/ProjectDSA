@@ -1,9 +1,0 @@
-﻿  main.cpp
-  sort.cpp
-C:\Git\S2Y1-DSA-24CTT3A-HCMUS\Week3\source\sort.cpp(4,23): warning C4018: '<': signed/unsigned mismatch
-C:\Git\S2Y1-DSA-24CTT3A-HCMUS\Week3\source\sort.cpp(130,23): warning C4018: '<': signed/unsigned mismatch
-C:\Git\S2Y1-DSA-24CTT3A-HCMUS\Week3\source\sort.cpp(244,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Git\S2Y1-DSA-24CTT3A-HCMUS\Week3\source\sort.cpp(249,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Git\S2Y1-DSA-24CTT3A-HCMUS\Week3\source\sort.cpp(260,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Generating Code...
-  source.vcxproj -> C:\Git\S2Y1-DSA-24CTT3A-HCMUS\Week3\Debug\source.exe
