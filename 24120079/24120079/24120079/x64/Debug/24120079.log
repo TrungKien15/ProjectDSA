@@ -1,0 +1,16 @@
+﻿  24120079.cpp
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(81,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(87,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(116,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(166,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(214,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(220,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(266,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(330,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(335,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(337,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(353,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(358,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(360,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\MyFiles\DSA\24120079\24120079\24120079\24120079.cpp(382,1): warning C4715: 'calculation': not all control paths return a value
+  24120079.vcxproj -> C:\MyFiles\DSA\24120079\24120079\x64\Debug\24120079.exe
