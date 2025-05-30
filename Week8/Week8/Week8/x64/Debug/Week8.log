@@ -1,0 +1,11 @@
+﻿  FileName.cpp
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(73,23): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(116,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(143,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(204,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(239,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(313,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(335,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(370,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ASUS\Downloads\Week8\Week8\Week8\FileName.cpp(201,1): warning C4715: 'isCompleteBipartite': not all control paths return a value
+  Week8.vcxproj -> C:\Users\ASUS\Downloads\Week8\Week8\x64\Debug\Week8.exe
